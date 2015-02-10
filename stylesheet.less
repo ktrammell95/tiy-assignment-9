@@ -1,51 +1,126 @@
 body {
   /*font-family: 'Courgette', cursive;*/
   font-family: 'Kaushan Script', cursive;
+  padding: 20px;
     
   .calc-body {
     background-color: #4d5063;
+    padding: 20px;
     height: 700px ;
     width: 500px;
     border-radius: 25px;
+    font-family: 'Kaushan Script', cursive;
   }
 
   .calc-top {
     background-color: #4d5067;
-    height: 300px ;
-    width: 300px;
-    border-radius: 25px;
+    font-size: 18px;
+    height: 20px ;
+    width: 450px;
     padding: 31px;
-    color: #cec7c9;
-   
-    div. panel {
-      background-color: #41312f;
-      height: 15px;
+    border-radius: 25px;
+
+    .name {
+     color: #cec7c9; 
+     margin: 0;
+     width: 45%;
+     padding: 0;
+     float: left;
+     // border: dashed;
     }
-  }
+    
+    .panel-box {
+      border: 3px #373a47;
+      width: 150px;
+      float: right;
+      display: inline-block;
+
+      .panel {
+        background-color: #41312f;
+        border: 1px solid;
+        width: 23px;
+        float: right;
+        display: inline-block;
+        height: 50px;
+        border-radius: 5px;
+        // box-shadow: 2px 2px 2px #373946;
+      }
+    }
+  }//cal-top ends here
+    .calc-answer {
+      // border: dashed;
+      margin-top: 20px;
+      border-radius: 15px;
+      background-color: #7c809a;
+      width: 490px;
+      height: 80px;
+      display: inline-block;
+      }
+      .answer-background {
+        background-color: #d3d4dc;
+        // border: dashed;
+        height: 57px;
+        margin: 10px;
+        border-radius: 5px;
+        .symbols {
+          font-size: 9px;
+          vertical-align: middle;
+          font-family: 'Courgette', cursive;
+          color: #999cb0;
+          float: left;
+          display: inline-block;
+          ul {
+          list-style: none;
+          padding-left: 20px;
+          margin-top: 8px;
+          width: 7%;
+          }
+        }
+        .inner-answer {
+          background-color: #d3d4dc;
+          color: black;
+          float: right;
+          width: 85%;
+          font-size: 20px;
+          text-align: right;
+          height: 49px;
+          margin-top: 2px;
+          line-height: 49px;
+          margin-right: 15px;
+        }  
+      
+   }//cal-answer ends here
+   .calc-buttons {
+      width: 490px;
+      height: 485px;
+      margin-top: 20px;
+      border: dashed;
+      .btns-lineone {
+        background-color: #af7bc5;
+        border-radius: 15px;
+        .btn-clear {
+          color: #fffffd;
+          text-decoration: none;
+          float: right;
+          width: 100px;
+          height: 50px;
+          text-align: center;
+          line-height: 50px;
+          font-size: 40px;
+          font-family: 'Courgette', cursive;
+        }
+      }
+   }//calc-buttons ends here
+
 }
 
 
 
 
-.btns-lineone {
-  background-color: #b281c7;
-  width: 30px;
-  height: 50px;
-  float: right;
-  padding: 30px;
-}
-/*.btns-linetwo {
-  background-color: #acb0c9;
-  width: 30px;
-  height: 50px;
-  float: right;
-  padding: 10px;
-}
-
-.btns-linethree{
-  background-color: #acb0c9;
-  width: 30px;
-  height: 50px;
-  float: right;
-  padding: 10px;
-}*/
+// .btns-lineone {
+//   background-color: #b281c7;
+//   width: 30px;
+//   height: 50px;
+//   float: right;
+//   padding: 30px;
+// }
